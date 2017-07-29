@@ -25,7 +25,7 @@ SECRET_KEY = 'c6o7k69f_d(ts^=qz-tsn(k41@lqcqzpjsk=7do@27xf8*c2w-'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['tabithabutcher.pythonanywhere.com']
+ALLOWED_HOSTS = ['tabithabutcher.pythonanywhere.com', '127.0.0.1']
 
 
 # Application definition
@@ -55,7 +55,7 @@ ROOT_URLCONF = 'mysite.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR,'blog/templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
