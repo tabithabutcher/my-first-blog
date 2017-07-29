@@ -25,7 +25,7 @@ SECRET_KEY = 'c6o7k69f_d(ts^=qz-tsn(k41@lqcqzpjsk=7do@27xf8*c2w-'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['tabithabutcher.pythonanywhere.com']
 
 
 # Application definition
